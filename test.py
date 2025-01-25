@@ -6,8 +6,17 @@ import time
 URL = "http://localhost:8000/chat_stream"
 
 
+# input_data = {
+#   "conversation_id": "26955b4a-a382-45aa-b11c-d8deccbdd18e",
+#   "history": [
+#     {
+#       "role": "user",
+#       "content": "Haz un ensayo de 150 palabras sobre la inteligencia artificial. Termina el ensayo con la frase colorin colorado este cuento se ha acabado",
+#     }
+#   ]
+# }
+
 input_data = {
-  "conversation_id": "26955b4a-a382-45aa-b11c-d8deccbdd18e",
   "history": [
     {
       "role": "user",

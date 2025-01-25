@@ -35,7 +35,7 @@ async def generate_chat_responses_event(message):
 
 @app.post("/chat_stream", tags=["Streaming"])
 async def chat_stream(input: ChatInput) -> StreamingResponse:
-    converstation_id = input.conversation_id
+    #converstation_id = input.conversation_id
     history = input.history
     question = history[-1]["content"]
     return StreamingResponse(
