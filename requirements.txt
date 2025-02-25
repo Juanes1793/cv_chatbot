@@ -1,5 +1,6 @@
 fastapi
 langchain-groq
+langchain-text-splitters
 llama-parse
 docling
 uvicorn[standard]
